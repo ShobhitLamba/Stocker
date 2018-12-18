@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Stocker</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="companies">
+        <item>Apple</item>
+        <item>Berkshire Hathaway</item>
+        <item>Microsoft</item>
+        <item>Wells Fargo</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ut_mactb.stocker">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".Aapl" />
+        <activity android:name=".Brk" />
+        <activity android:name=".Msft" />
+        <activity android:name=".Wfc" />
+        <activity android:name=".Models" />
+        <activity android:name=".Models1" />
+        <activity android:name=".Models2" />
+        <activity android:name=".Models3" />
+        <activity android:name=".Appl_tsa" />
+        <activity android:name=".ChartActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
